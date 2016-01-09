@@ -10,12 +10,20 @@ header {
 }
 
 .logo {
+    display: inline-block;
+    position: relative;
     width: 95px;
     height: 95px;
-    background: url(images/Rectangle-27.png);
+    background-color: #1d1f25;
 }
 
 .logo img {
     margin-left: 19px;
     margin-top: 19px;
+}
+
+.logo a {
+    display: inline-block;
+    width: 95px;
+    height: 95px;
 }
