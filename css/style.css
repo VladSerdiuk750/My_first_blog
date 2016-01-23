@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+/* Style Parents block Header 
+-------------------------------------*/
 header {
     width: 100%;
     height: 95px;
@@ -64,31 +66,78 @@ nav .active {
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-bottom: 14px;
-}                   
+} 
+
 footer {  
-    position: absolute;
+    position: relative;
     display: block;
     width: 100%;
     height: 103px;
-    margin-bottom: 0px;
     background-color: #0f1118;
 }
+
 footer .copyright {         
     color: #ffffff;
+    display: inline-block;
     font: 400 13px / 26px Arvo;
-    margin-bottom: 44px;
-    margin-right: 1058px;
-    margin-left: 216px;
-    margin-top: 46px;
+    padding-top: 46px;
     width: 325px;
     height: 17px;
 }
-footer .social {
-    width: 218px;
-    height: 39px;
-    background: url(Social.png);
-    margin-top: 32px;
-    margin-left: 1168px;
-    margin-right: 213px;
-    margin-bottom: 32px;
+
+footer .copyright-logo {
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
+    vertical-align: middle;
 }
+
+footer .social {
+    position: relative;
+    display: inline-block;
+    margin-top: 32px;
+}
+
+footer .social li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer .social a {
+    display: block;
+    width: 39px;
+    height: 39px;
+    font-size: 0;
+    border: 1px solid #34363D;
+}
+
+footer .social .twitter {
+    background-image: url(images/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer .social .github {
+    background-image: url(images/github.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer .social .dribbble {
+    background-image: url(images/dribbble.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer .social .instagram {
+    background-image: url(images/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer .social a:hover {
+    background-color: #f1c40f;
+}
+
+
