@@ -1,5 +1,9 @@
+/* Connect font-family 
+-------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic);
+/* Common style
+-------------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +16,8 @@ header {
     height: 95px;
     box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.14);
 }
-
+/* Style main logo
+-------------------------------------*/
 .logo {
     display: inline-block;
     position: relative;
@@ -20,18 +25,21 @@ header {
     height: 95px;
     background-color: #1d1f25;
 }
-
+/* Style logo image
+-------------------------------------*/
 .logo img {
     margin-left: 19px;
     margin-top: 19px;
 }
-
+/* Style link of logo 
+-------------------------------------*/
 .logo a {
     display: inline-block;
     width: 95px;
     height: 95px;
 }
-
+/* Style parents block of menu 
+-------------------------------------*/
 nav {
     display: block;
     position: relative;
@@ -39,13 +47,15 @@ nav {
     float: right;
     margin-top: 47px;
 }
-
+/* Style list 
+-------------------------------------*/
 nav li {
     display: inline-block;
     list-style-type: none;
     margin-right: 40px;
 }
-
+/* Style link in menu 
+-------------------------------------*/
 nav a {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -55,11 +65,13 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+/* Style active link
+-------------------------------------*/
 nav a:hover {
     color: #f1c40f;
 }
-
+/* Style active link
+-------------------------------------*/
 nav .active {
     color: #f1c40f;
     background: url(images/Shape-29.png);
@@ -67,7 +79,8 @@ nav .active {
     background-position: bottom center;
     padding-bottom: 14px;
 } 
-
+/* Style Parents block of footer
+-------------------------------------*/
 footer {  
     position: relative;
     display: block;
@@ -75,7 +88,8 @@ footer {
     height: 103px;
     background-color: #0f1118;
 }
-
+/* Style copyright
+-------------------------------------*/
 footer .copyright {         
     color: #ffffff;
     display: inline-block;
@@ -84,26 +98,30 @@ footer .copyright {
     width: 325px;
     height: 17px;
 }
-
+/* Style of copyright logo
+-------------------------------------*/
 footer .copyright-logo {
     margin-left: 2px;
     margin-right: 2px;
     display: inline-block;
     vertical-align: middle;
 }
-
+/* Style social link 
+-------------------------------------*/
 footer .social {
     position: relative;
     display: inline-block;
     margin-top: 32px;
 }
-
+/* Style list of social link 
+-------------------------------------*/
 footer .social li {
     list-style-type: none;
     display: inline-block;
     margin-right: 20px;
 }
-
+/* Style link of social 
+-------------------------------------*/
 footer .social a {
     display: block;
     width: 39px;
@@ -111,33 +129,36 @@ footer .social a {
     font-size: 0;
     border: 1px solid #34363D;
 }
-
+/* Style Twitter link
+-------------------------------------*/
 footer .social .twitter {
     background-image: url(images/twitter.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
+/* Style Github link 
+-------------------------------------*/
 footer .social .github {
     background-image: url(images/github.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
+/* Style Dribbble link 
+-------------------------------------*/
 footer .social .dribbble {
     background-image: url(images/dribbble.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
+/* Style Instagram link 
+-------------------------------------*/
 footer .social .instagram {
     background-image: url(images/instagram.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
+/* Style active social link
+-------------------------------------*/
 footer .social a:hover {
     background-color: #f1c40f;
 }
-
-
